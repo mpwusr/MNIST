@@ -38,6 +38,8 @@ This repository contains two Python scripts for classifying handwritten digits f
 - **Extras**: Weight resetting between folds to avoid leakage
 
 ## Requirements
+```bash
+pip install torch torchvision matplotlib sklearn
 
 ## Usage
 1. Run either script:
@@ -99,15 +101,3 @@ This repository contains two Python scripts for classifying handwritten digits f
 ## License
 This project is open-source and available under the MIT License.
 ```
-
-### Key Points
-- **Overview**: Introduces the purpose and distinguishes the two scripts.
-- **Scripts**: Lists both files with their sources and key differences.
-- **Features**: Details the functionality of each script separately.
-- **Requirements**: Unified package list for both scripts.
-- **Usage**: Clear instructions for running each script.
-- **Configuration**: Highlights key adjustable parameters.
-- **Output**: Describes console and visual outputs with placeholders for images.
-- **Notes**: Includes practical tips and dependencies.
-
-Since two of the scripts were identical, I treated them as one (`mnist_cnn.py`) and contrasted it with the k-fold version (`mnist_cnn_kfold.py`). This README provides a comprehensive guide for users while avoiding redundancy. Let me know if you'd like to adjust anything or add specific output examples!
